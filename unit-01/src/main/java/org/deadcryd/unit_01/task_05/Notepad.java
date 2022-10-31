@@ -7,6 +7,7 @@ package org.deadcryd.unit_01.task_05;
 public class Notepad {
 
     private final RecordForNotepad[] records;
+
     private int lastRecordIndex;
 
     public Notepad(int notepadSize) {
@@ -40,6 +41,13 @@ public class Notepad {
      * */
     public RecordForNotepad[] getRecords() {
         return records;
+    }
+
+    /**
+     * @return индекс последней записи в блокноте
+     * */
+    public int getLastRecordIndex() {
+        return lastRecordIndex;
     }
 
     @Override

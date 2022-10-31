@@ -4,7 +4,7 @@ public class RecordForNotepad {
 
     private String value;
 
-    RecordForNotepad(String value) {
+    public RecordForNotepad(String value) {
         this.value = value;
     }
 
