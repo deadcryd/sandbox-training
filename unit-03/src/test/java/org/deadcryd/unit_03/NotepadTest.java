@@ -16,7 +16,6 @@ class NotepadTest {
 
     @BeforeEach
     void init() {
-        notepad = new Notepad(1);
         record = new RecordForNotepad("TEST_DATA");
     }
 
